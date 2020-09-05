@@ -35,7 +35,7 @@
                 android:layout_below="@+id/tvMyDashBoard"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="6 items"
+                android:text="7 items"
                 android:textSize="14sp"
                 android:textColor="#c14141"
                 android:layout_marginTop="6dp"
@@ -304,6 +304,48 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Block User"
+                        android:textStyle="bold"
+                        android:textColor="#6f6f6f"
+                        android:layout_marginTop="12dp"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+
+
+                </LinearLayout>
+
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:orientation="vertical">
+
+
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/reports"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Reports"
                         android:textStyle="bold"
                         android:textColor="#6f6f6f"
                         android:layout_marginTop="12dp"
