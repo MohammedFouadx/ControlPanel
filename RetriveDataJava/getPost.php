@@ -9,7 +9,7 @@ $stmt = $conn->prepare("SELECT p_id , `title`, `description`,  `status` FROM `po
 
 $stmt->execute();
 
-$stmt-> bind_result($p_id , $title, $descirption, $status);
+$stmt-> bind_result($p_id , $title, $description, $status);
 
 $products = array();
 
@@ -19,7 +19,7 @@ while($stmt ->fetch()){
 	
 	$temp['p_id'] = $p_id;
 	$temp['title'] = $title;
-	$temp['descirption'] = $descirption;
+	$temp['description'] = $description;
 	$temp['status'] = $status;
 	
 

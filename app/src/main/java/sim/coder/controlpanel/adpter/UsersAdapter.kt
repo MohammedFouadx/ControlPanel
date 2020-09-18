@@ -5,6 +5,8 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Filter
+import android.widget.Filterable
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.android.volley.Response
@@ -17,6 +19,7 @@ import sim.coder.controlpanel.Models.UsersData
 
 
 class UsersAdapter:RecyclerView.Adapter<UsersAdapter.mViewHolder> {
+
     var context: Context?=null
     var postslist=ArrayList<UsersData>()
 
@@ -34,6 +37,7 @@ class UsersAdapter:RecyclerView.Adapter<UsersAdapter.mViewHolder> {
             )
         )
     }
+
     override fun getItemCount(): Int {
         return postslist.size
     }
@@ -47,7 +51,7 @@ class UsersAdapter:RecyclerView.Adapter<UsersAdapter.mViewHolder> {
 
         holder.imageTrash.setOnClickListener {
 
-            val urls = "http://192.168.1.105/RetriveDataJava/delete.php"
+            val urls = "http://192.168.1.107/RetriveDataJava/delete.php"
 
             var stringRequest= object : StringRequest(Method.POST,urls, Response.Listener {
 

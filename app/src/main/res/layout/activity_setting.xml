@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.SettingActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:background="#0097A7">
+
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/user"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:id="@+id/adminAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_margin="10dp">
+
+            </TextView>
+
+
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+
+            <TextView
+                android:id="@+id/addAdmin"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/edittext_shape"
+                android:gravity="center"
+                android:text="Add Admin"
+                android:textColor="#FFA000"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+        <EditText
+        android:id="@+id/etName"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Name"
+        android:gravity="left"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/edittext_shape"
+        android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:hint="Email"
+            android:gravity="left"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edittext_shape"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:gravity="left"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:background="@drawable/edittext_shape"
+            android:visibility="gone"/>
+
+
+        <Button
+            android:id="@+id/btAddAdmin"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#F7F2F2"
+            android:background="@drawable/btnshape"
+            android:layout_margin="10dp"
+            android:visibility="gone">
+
+        </Button>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/signOut"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/edittext_shape"
+        android:gravity="center"
+        android:text="Sign Out"
+        android:textColor="#D32F2F"
+        android:textSize="20sp"
+        android:visibility="visible">
+
+    </TextView>
+
+
+</RelativeLayout>

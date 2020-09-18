@@ -9,36 +9,38 @@
 
 
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="MAFQOUD USERS"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:textColor="#c14141"
-            android:gravity="center">
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="32dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:layout_marginLeft="20dp">-->
 
-        </TextView>
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="MAFQOUD USERS"-->
+<!--            android:textSize="24sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="#c14141"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:gravity="center">-->
+
+<!--        </TextView>-->
 
 
 
 
-    </RelativeLayout>
+<!--    </RelativeLayout>-->
 
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="80dp"
-        >
+        android:layout_marginTop="10dp"
+        android:padding="5dp">
 
     </androidx.recyclerview.widget.RecyclerView>
 

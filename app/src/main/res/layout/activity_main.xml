@@ -26,7 +26,7 @@
                 android:id="@+id/tvMyDashBoard"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="My Dashboard"
+                android:text="MAFQOUD DASHBOARD"
                 android:textSize="22sp"
                 android:textStyle="bold"
                 android:textColor="#000000"/>
@@ -196,6 +196,8 @@
 
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
+
+                android:id="@+id/cvSetting"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"

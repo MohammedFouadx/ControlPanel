@@ -47,7 +47,7 @@ class PostAdapter:RecyclerView.Adapter<PostAdapter.mViewHolder> {
 
         holder.imageTrash.setOnClickListener {
 
-            val urls = "http://192.168.1.105/RetriveDataJava/deletePost.php"
+            val urls = "http://192.168.1.107/RetriveDataJava/deletePost.php"
 
             var stringRequest= object : StringRequest(Method.POST,urls, Response.Listener {
 

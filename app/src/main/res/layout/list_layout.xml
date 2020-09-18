@@ -50,15 +50,7 @@
                     android:textSize="18sp"
                     android:layout_weight="2" />
 
-                <TextView
-                    android:id="@+id/tvUserEmail"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:text="email"
-                    android:textColor="#616161"
-                    android:textSize="18sp"
-                    android:layout_weight="3" />
+
 
 
 
@@ -76,20 +68,32 @@
                 android:layout_weight="1">
 
 
+                <TextView
+                    android:id="@+id/tvUserEmail"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:text="email"
+                    android:textColor="#616161"
+                    android:textSize="18sp"
+                    android:layout_weight="3" />
+
+
                 <ImageView
                     android:id="@+id/ivTrash"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_marginLeft="100dp"
-                    android:src="@drawable/mtrash"/>
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/delete" />
 
 
                 <ImageView
                     android:id="@+id/ivDisable"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_marginLeft="30dp"
-                    android:src="@drawable/disable"/>
+
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/disabled"/>
 
 
             </LinearLayout>
